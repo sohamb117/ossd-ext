@@ -1,0 +1,14 @@
+{
+
+  "description": "Modifies Gradescope's page to display a congratulations or a message to study when grade in a class is below or above a given threshold",
+  "manifest_version": 1,
+  "name": "",
+  "version": "1.0",
+  "homepage_url": "https://github.com/sohamb117/ossd-ext"
+  "content_scripts": [
+    {
+      "matches": ["*://*.gradescpoe.com/*"],
+      "js": ["gradeDisplay.js"]
+    }
+  ]
+}
